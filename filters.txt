@@ -1,9 +1,13 @@
-##*#ad-linkleft
-##IFRAME[id*="ndn_frame"]
+! Title: Tom's Filters
+! Homepage: https://github.com/tom-henderson/adblock
+! Expires: 1 day
+! Exceptions
 @@|http://tom.henderson.net.nz/|$document
 @@|https://www.hackerguardian.com/sas/app/overview|$document
 @@||chrome-extension://*^$document
 @@||portal.pack.net.nz/$document
+##*#ad-linkleft
+##IFRAME[id*="ndn_frame"]
 http://www.aatravel.co.nz/client_sites/index.php?site=www.falls.co.nz&page=js/fullscreen.js
 quora.com##div.modal_signup_background
 quora.com##form.modal_signup_dialog
@@ -11,4 +15,3 @@ www.reddit.com##.promoted.promotedlink
 ||bootswatch.com/assets/img/shopify.png
 ||cdn-careers.sstatic.net/careers/gethired/img/companypageadfallback-leaderboard-2.png?v=59b591051ad7
 ||kasperskycontenthub.com/global/files/2014/07/kismd2015.png
-
